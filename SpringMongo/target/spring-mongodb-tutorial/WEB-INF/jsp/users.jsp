@@ -117,7 +117,7 @@
         </tr>
     </thead>
     <tbody>
-		<c:forEach var="book" items="${users}">
+		<c:forEach var="book" items="${gis}">
 			<tr>
 				<td>${book.maCK}</td>
 				<td>${book.tenCty}</td>
@@ -153,7 +153,7 @@
 				<td>${book.website}</td>
 			</tr>
 		</c:forEach>
-		<c:if test="${empty users}">
+		<c:if test="${empty gis}">
 			<tr>
 				<td colspan="6">No users found</td>
 			</tr>
