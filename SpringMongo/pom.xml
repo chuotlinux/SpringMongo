@@ -253,7 +253,7 @@
 	          <descriptorRefs>
 	            <descriptorRef>jar-with-dependencies</descriptorRef>
 	          </descriptorRefs>
-	          <finalName>helloworld</finalName>
+	          <finalName>SpringMongo</finalName>
 	          <appendAssemblyId>false</appendAssemblyId>
 	          <archive>
 	            <manifest>
